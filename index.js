@@ -1,11 +1,12 @@
 const inquirer = require("inquirer");
 const createComponent = require("./createComponent");
-const pwd = process.cwd();
-const argv = process.argv.slice(2);
 
 const cli = async (allArgs) => {
   const argv = allArgs.slice(2);
-  if(!argv.length || argv.includes("-h"))
+  if(!argv.length || argv.includes("-h")){
+    console.log("hi\njo");
+    return
+  }
   if (argv[0] === "cc") {
     if (argv[1]) {
       const [_, componentName, ...rest] = argv;
