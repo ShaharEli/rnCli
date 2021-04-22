@@ -1,6 +1,6 @@
-# gcg
+# rnCli
 
 ## commands:
 
-run <code>gcg cc < component name > </code> to generate component <br/>
-run <code>gcg cc < component name > -s</code> to generate component with styles
+run <code>rnCli cc < component name > </code> to generate component <br/>
+run <code>rnCli cc < component name > -s</code> to generate component with styles
