@@ -1,0 +1,40 @@
+{
+  "name": "rnCli",
+  "version": "1.0.9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "bin": {
+    "@shahar12345/rnCli": "bin/rnCli",
+    "rnCli": "bin/rnCli"
+  },
+  "keywords": [
+    "cli",
+    "generator",
+    "react-native"
+  ],
+  "author": "Shahar Eliyahu",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "ora": "^5.4.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaharEli/rnCli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/ShaharEli/rnCli/issues"
+  },
+  "homepage": "https://github.com/ShaharEli/rnCli#readme",
+  "description": ""
+}
